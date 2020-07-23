@@ -8,7 +8,7 @@
     <echo>Doing all</echo>
   </target>
 
-<target name="Clean" description="Removes previous build">
+<target name="clean" description="Removes previous build">
     <delete verbose="true">
       <fileset dir="${build}"/>
     </delete>
